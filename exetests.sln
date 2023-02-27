@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net6.0", "net6.0\net6.0.csproj", "{06EA68F4-978F-4ABB-8DD1-B36ED90D2651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netstandard21", "netstandard21\netstandard21.csproj", "{6D853BEA-FDBF-4560-A8F3-7C31AC366CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EA68F4-978F-4ABB-8DD1-B36ED90D2651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EA68F4-978F-4ABB-8DD1-B36ED90D2651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EA68F4-978F-4ABB-8DD1-B36ED90D2651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EA68F4-978F-4ABB-8DD1-B36ED90D2651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D853BEA-FDBF-4560-A8F3-7C31AC366CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D853BEA-FDBF-4560-A8F3-7C31AC366CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D853BEA-FDBF-4560-A8F3-7C31AC366CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D853BEA-FDBF-4560-A8F3-7C31AC366CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
