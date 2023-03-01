@@ -21,5 +21,4 @@ jobs:
         dotnet-version: '6.0.*'
     - name: Publish
       run: |
-        cd src/
-        dotnet publish /p:OutputType=exe
+        dotnet publish ./src/app/app.csproj /p:OutputType=exe
