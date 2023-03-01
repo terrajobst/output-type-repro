@@ -12,6 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
+        netVersion: [5.0.*, 6.0.*, 7.0.*]
     runs-on: ${{ matrix.os }}
     steps:
     - name: Get Code
@@ -19,7 +20,7 @@ jobs:
     - name: Get .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '6.0.*'
+        dotnet-version: ${{ matrix.netVersion }}
     - name: Publish
       run: |
         dotnet publish ./src/app/app.csproj /p:OutputType=exe
